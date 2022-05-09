@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  font-size: 62.5%;
+  --text-color: #fff;
+  --text-color2: #C4C4CC;
+  --text-color-hover: #02799D;
+}
+body{
+  font-size: 1.8rem;
+  color: var(--text-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+}
+nav{
+margin: 4rem 0 0 7.2rem;
+ 
+  width: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a{
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: var(--text-color2);
+}
+nav a:hover{
+  color: var(--text-color);
+  font-weight: 700;
+}
+main{
+  margin-top: 17rem;
+  display: grid;
+  justify-content: center;
+  
+}
+.main2{
+  margin-left: 10rem;
+  width: 65rem;
+}
+h1{
+  font-size: 4.8rem;
+}
+button{
+  margin-top: 2.4rem;
+  background: transparent;
+  cursor: pointer;
+  width: 19.5rem;
+  height: 4.8rem;
+  margin-left: 10rem;
+color: var(--text-color);
+border-color: #fff;
+border-radius: .7rem;
+font-weight: 700;
+}
+button:hover{
+  color: var(--text-color-hover);
+  background-color: var(--text-color);
+  font-weight: 700;
+
+}
+.bg {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
