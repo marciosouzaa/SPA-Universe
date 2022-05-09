@@ -1,3 +1,3 @@
 # SPA-Universe
  
-https://marciosouzaa.github.io/SPA-Universe/
+https://universespa.netlify.app/
