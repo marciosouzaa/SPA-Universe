@@ -46,7 +46,11 @@ main{
 h1{
   font-size: 4.8rem;
 }
-button{
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
   margin-top: 2.4rem;
   background: transparent;
   cursor: pointer;
@@ -54,11 +58,12 @@ button{
   height: 4.8rem;
   margin-left: 10rem;
 color: var(--text-color);
-border-color: #fff;
+border: 2px solid white;
+
 border-radius: .7rem;
 font-weight: 700;
 }
-button:hover{
+.button:hover{
   color: var(--text-color-hover);
   background-color: var(--text-color);
   font-weight: 700;
